@@ -1,0 +1,174 @@
+@media (min-width: 600px) {
+
+	header .button-bars {
+
+		display: none;
+	}
+	header {
+
+		height: 70px;
+
+	}
+	header .nav {
+
+		display: flex;
+	}
+	header .nav > a {
+
+		font-size: 30px;
+		color:#909090;
+
+
+	}
+	header .nav > a:hover {
+		transition: all 1s;
+		color: rgb(255, 190, 1);
+
+	}
+	header .streetfood > a {
+
+	}
+
+
+
+    .inicio-menu h2{
+
+    	font-size: 30px;
+    }
+
+    .inicio-menu  p{
+
+      margin: 20px;
+    }
+
+
+
+
+
+
+
+      .content-menu {
+
+      	flex-direction: row;
+      	height: 80vh;
+      }
+      .foods {
+
+      	margin: 0px 0px;
+      	padding: 30px 0px 0px 25px;
+      
+      }
+      .empanadas {
+      	float: left;
+
+      	margin: 0px 20px 0px 40px;
+      	flex-direction: row;
+      }
+      .ensalada {
+      	float: left;
+         margin: 0px 20px;
+         flex-direction: row;
+      }
+      .espaguetis{
+       float: left;
+       margin-right: 10px;
+       margin: 0px 20px;
+      }
+      .empanadas div {
+
+        position: absolute;
+        top: 120px;
+        right: 35px;
+           
+      }
+        .ensalada div {
+
+        position: absolute;
+        top: 120px;
+        right: 35px;
+           
+      }
+        .espaguetis div {
+
+        position: absolute;
+        top: 120px;
+        right: 35px;
+           
+      }
+
+
+
+
+    .cheff {
+
+    	height: 700px;
+    	background-attachment: scroll;
+    	border-top: 3px solid #353535;
+    	background-image: url(sources-img/chef.jpg);
+    	border-bottom: 3px solid #353535;
+
+    }
+
+
+
+
+
+    .disgustaciones {
+
+    	margin-top: 10px;
+
+    }
+
+
+
+    footer {
+
+    	display: flex;
+    }
+    footer pre {
+
+    right: 0;
+    }
+    footer h3 {
+
+    	bottom: 0;
+    	left: 0;
+    	font-size: 15px;
+    }
+    footer a {
+          
+    	position: absolute;
+    	top: 0;
+        font-size: 40px;
+    }
+    .fa-facebook {
+
+	color: #1d54f0;
+	position: absolute;
+	left: 60px;
+}
+.fa-whatsapp {
+
+	color: green;
+
+
+}
+.fa-twitter-square {
+
+	color: #1d9bf0;
+	position: absolute;
+	right: 40px;
+}
+.fa-instagram-square {
+
+	color: blueviolet, orange ;
+}
+
+
+
+
+    .inicio {
+
+      height: 150vh;
+    }
+}

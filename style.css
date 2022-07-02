@@ -1,0 +1,411 @@
+html {
+
+	scroll-behavior: smooth;
+}
+
+h2 {font-size: 1.5em;}
+.container {
+
+	max-width: 1000px;
+	margin: auto;
+}
+h3 {font-size: 1em;}
+li {list-style: none;}
+img {width: 300px;}
+p {font-size: 1em;}
+
+
+
+
+header {
+
+	display: flex;
+            position: fixed;
+
+            width: 100%;
+            z-index: 200;
+       text-align: center;
+	justify-content: space-between;
+
+	background: rgb(240, 240, 240);
+}
+header .food {
+
+	color: rgb(255, 190, 1);
+}
+header .button-bars {
+
+   width: 80px;
+   height: 40px;
+   margin: 20px;
+   border: none;
+ 
+}
+
+
+header a {
+
+	padding: 0px 20px;
+	text-decoration: none;
+	color: #000;
+	font-size: 35px;
+	margin-top: 17px;
+}
+
+header .nav {
+
+	display: none;
+}
+
+
+
+.inicio {
+
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+  height: 100vh;
+  
+
+  text-align: center;
+
+	background-image: linear-gradient(
+		rgb(0, 0, 0, 0.35),
+		rgb(0, 0, 0, 0.35)) 
+	,url(sources-img/logo-home2.png) ;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center; 
+
+	font-family: "Oswald", sans-serif;
+}
+
+
+/*//////// SOBRE NOSOTROS //////*/
+
+.sobrenosotros {
+
+
+ display: flex;
+
+  
+   text-align: center;
+    justify-content: center;
+     padding: 10px ;
+	background: rgb(240, 240, 240);
+	height: 100vh;
+     box-shadow: 1px 3px 7px #000;
+}
+.sobrenosotros h2 {
+
+   font-size: 2em;
+   text-align: center;
+	font-family: "Staatiches", sans-serif;
+}
+.sobrenosotros p {
+
+text-align: center;
+    margin: 10px;
+	font-size: 30px;
+}
+.sobrenosotros img {
+
+	border-radius: 45%;
+	margin: 10px 0px;
+}
+    /*/////////// MENU ///////////*/
+
+.menu {
+
+     display: flex;
+    flex-direction: column;
+	text-align: center;
+	position: static;
+
+
+	margin: 0px 0px;
+	height: 100vh;
+
+
+	box-shadow: 1px 1px 7px #000;
+
+
+	 background-image: url(https://i.pinimg.com/564x/d9/4f/51/d94f516bb63023c7fe0cde4663a1e95c.jpg);
+	 background-repeat: no-repeat;	
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center ;
+
+
+	font-family: "Oswald", sans-serif;
+
+	color: #353535;
+
+	}
+.menu h2 {
+ 
+    font-size: 50px;
+    text-shadow: 5px 5px 15px #000;
+   color: #fff;
+
+   padding-top: 0px;
+   
+
+}
+.menu h3 {
+
+
+	margin-top: 50px;
+
+	font-size: 50px;
+
+	padding: 5px 0px;
+
+
+	text-shadow: 5px 5px 15px #000;
+
+     color: #ffffff;
+}
+
+.menu a {
+
+	display: flex;
+	flex-direction: column;
+
+
+     text-decoration: none;
+
+     font-size: 30px;
+
+	margin: 10px 0px;
+
+
+	background: #000;
+	border: 5px solid #000;
+    border-radius: 10%;
+    
+	color: white;
+}
+
+
+
+/*BOTTONES*/
+
+.button-container {
+display: flex;
+border: none;
+background: 0;
+margin: auto;
+width: 100px;
+
+	flex-direction: column;
+	
+	align-items: center;
+}
+.button-disgustacion {
+
+
+	width: 165px;
+	
+
+	
+}
+.button-carta {
+
+	width: 80px;
+
+}
+
+/* SLOGAN */
+
+.slogan {
+
+     width: 100% !important;
+   
+
+
+	font-size: 20px !important;
+
+
+         
+
+	color: hwb(0 75% 25%) !important;
+}
+
+
+/* /////INICIO MENU////// */
+
+
+.inicio-menu {
+
+ 
+ position: relative;
+  text-align: center;
+
+	height: 50vh;
+	padding: 10px;
+
+	box-shadow: 1px -5px 2px #000;
+
+	background: #ffffff ;
+	
+
+}
+.inicio-menu h2,p {
+
+	position: relative;
+	padding: 2px 0px;
+
+	z-index: 100;
+}
+.inicio-menu p {
+
+	font-size: 20px;
+
+	color: #968f8f;
+}
+#inicio {
+
+	position: relative;
+}
+
+
+
+
+/*  CONTENT-MENU   */
+
+
+.content-menu {
+
+
+ position: relative;
+	background: #f7f7f7;
+
+}
+.content-menu h3 {
+
+     display: flex ;
+     flex-direction: column;
+      align-items: center;
+      padding: 20px 0px;
+}
+.foods {
+
+	text-align: center;
+	padding: 10px 0px; 
+	height: 150vh;
+}
+.foods {
+
+}
+
+.empanadas {
+ 
+position: relative;
+
+ height: 200px;
+ width: 350px;
+
+ margin: auto;
+ margin-top: 20px;
+ box-shadow: 1px 5px 10px black;
+
+ background-image: url(sources-img/empanadas.jpg);
+
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ 
+
+}
+
+.empanadas div {
+
+  position: absolute;
+
+  bottom: -20px;
+  right: 30px;
+
+	background: white;
+	opacity: 90%;
+
+	height: 145px;
+	width: 80%;
+
+}
+.ensalada {
+
+position: relative;
+
+ height: 200px;
+ width: 350px;
+
+ margin: 0px auto;
+ margin-top: 100px;
+
+ box-shadow: 1px 5px 10px black;
+ background-image: url(sources-img/ensalada.jpg);
+
+ background-position: center;
+ background-repeat: no-repeat;
+ 
+
+}
+
+.ensalada div {
+
+  position: absolute;
+
+  bottom: -20px;
+  right: 30px;
+
+	background: white;
+	opacity: 90%;
+
+	height: 145px;
+	width: 80%;
+
+}
+
+
+.espaguetis {
+
+position: relative;
+
+ height: 200px;
+ width: 350px;
+
+ margin: auto;
+ margin-top: 100px;
+ 
+ box-shadow: 1px 5px 10px black;
+ background-image: url(sources-img/espaguetis.jpg);
+
+ background-position: bottom ;
+ background-size: cover;
+ background-repeat: no-repeat;
+ 
+
+}
+
+.espaguetis div {
+
+  position: absolute;
+
+  bottom: -20px;
+  right: 30px;
+
+	background: white;
+	opacity: 90%;
+
+	height: 145px;
+	width: 80%;
+
+}
+.content-div p {
+
+  padding: 0px 20px;
+
+}

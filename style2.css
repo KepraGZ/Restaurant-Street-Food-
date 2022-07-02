@@ -1,0 +1,163 @@
+
+
+
+.cheff {
+     height: 350px;
+
+     margin-top: 20px;
+
+	background-image: url(https://i.pinimg.com/564x/52/29/e0/5229e03d2a678d037bdb23a52eebf6db.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center ;
+	border-top: 10px solid #353535;
+	border-bottom: 10px solid #353535;
+	 
+
+
+	 box-shadow: 10px 1px 10px black;
+	
+
+
+}
+
+.disgustaciones h2 {
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 3px;
+     color: #ffffff;
+	text-shadow: 10px 10px 10px #1a1a1a;
+     font-family: "Oswald", sans-serif;
+}
+.disgustaciones {
+
+   margin-top: 100px;
+	height: 90vh;
+	text-align: center;
+	padding: 10px;
+
+	background-image: url(sources-img/back.png);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+.disgustaciones p {
+
+	margin: 10px;
+	text-shadow: 5px 5px 10px #000;
+	color: #fff;
+}
+.disgustaciones span {
+
+	color: #ffffff;
+}
+#names {
+
+	font-size: 20px;
+	letter-spacing: 1.9px;
+	font-family: "Oswald", sans-serif;
+}
+
+.reservar {
+
+ display: flex;
+   background:#1a1a1a;
+   text-align: center;
+	height: 30vh;
+}
+.reservar div {
+
+   color: #fefe;
+   font-size: 30px;
+  
+}
+.reserva {
+
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15%;
+    background: #000000;
+    border: none;
+    color: white;
+    box-shadow: 1px 0px 5px #fff ;
+
+}
+
+
+
+
+
+footer {
+	
+	position: relative;
+	 
+	height: 100px;
+	
+}
+footer pre {
+
+   position: absolute;
+   bottom: 0px;
+   right: 50px;
+	
+}
+footer h3 {
+  position: absolute;
+  left: 210px;
+  margin-top: 10px;
+	
+}
+footer a {
+
+	display: inline;
+	text-decoration: none;
+	flex-direction: row !important;
+	width: 10px;
+	font-size: 30px;
+       
+}
+footer strong {
+
+	position: absolute;
+	right: 10px;
+}
+.fa-facebook {
+
+	color: #1d54f0;
+}
+.fa-whatsapp {
+
+	color: green;
+}
+.fa-twitter-square {
+
+	color: #1d9bf0;
+}
+.fa-instagram-square {
+
+	color: blueviolet, orange ;
+}
+
+
+
+
+
+
+
+.carta-menu {
+
+display: flex;
+
+}
+.background-carta {
+
+   width: 100vh;
+   height: 100vh;
+   margin-top: 80px;
+
+	background-image: url(sources-img/menu3.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+} 
